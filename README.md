@@ -24,6 +24,7 @@ Dump all videos from a YouTube channel.
 - Python 3+ (tested on Python 3.10)
 - `yt-dlp` from pip (`pip install yt-dlp`)
 ## Steps
+0. Make sure you have all the requirements set up above.
 1. Go to a YouTube channel, and scroll to the bottom of the page.
 2. Open `Inspect Element` (Ctrl+Shift+I), and go to the `Console` tab.
 3. Paste the contents of `dumper.js` into the `Console`, then press `Enter`.
@@ -32,4 +33,4 @@ Dump all videos from a YouTube channel.
    - On Firefox, right click on the root of the object (`Array(x_amount)` on Firefox).
    - Right click on it, then click `Copy Object`.
    - On Chrome, good luck.
-6. Run 
+6. Run `dl.py` (`python dl.py`).
